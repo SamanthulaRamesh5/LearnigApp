@@ -1,0 +1,163 @@
+import {StyleSheet} from 'react-native';
+import COLORS from '../../../assests/color';
+import {HEIGHT, WIDTH} from '../../../locales/common';
+
+const styles = StyleSheet.create({
+  mainView: {
+    height: HEIGHT,
+    width: WIDTH,
+    backgroundColor: COLORS.white,
+  },
+  imgsStyle: {
+    width: 20,
+    height: 10,
+  },
+  buttonStyle: {
+    backgroundColor: COLORS.ThemeGreen,
+    borderRadius: 4,
+    height: 40,
+  },
+  modal_alignment: {
+    borderRadius: 2,
+    height: "70%",
+    width: "90%",
+    alignSelf: "center",
+    flexDirection: "column",
+    backgroundColor: COLORS.white,
+  },
+  flatList: {
+    marginTop: '8%',
+    // height:'75%',
+  },
+  borderView: {
+    width: WIDTH - 45,
+    height: WIDTH / 12,
+    borderRadius: 2,
+    borderColor: COLORS.leftBorder,
+    justifyContent: "center",
+    borderLeftWidth: 3,
+    margin: 10,
+  },
+  textStyle: {
+    fontSize: 14,
+    fontWeight:'400',
+    lineHeight:17,
+    paddingLeft:'2%',
+    paddingRight:'2%',
+    color: COLORS.blackCode,
+    flexWrap:'wrap',
+  },
+  lessonText:{
+    fontSize: 12,
+    fontWeight:'400',
+    lineHeight:17,
+    paddingLeft:'2%',
+    paddingRight:'2%',
+    color: COLORS.blackCode,
+    flexWrap:'wrap',
+  },
+  modalTextStyle: {
+    fontSize: 15,
+    fontWeight:'400',
+    lineHeight:17,
+    padding:'10%',
+    textAlign:'center',
+    color: COLORS.white,
+    flexWrap:'wrap',
+  },
+  changeStatusText: {
+    fontSize: 12,
+    fontWeight: "400",
+    paddingTop: 20,
+    paddingLeft: 10,
+  },
+  item: {
+    paddingVertical: '5%',
+    paddingHorizontal:'2%',
+    marginLeft: '5%',
+    width:'85%',
+    flexDirection:'row',
+    justifyContent:'flex-start',
+    alignItems:'center',
+  },
+  headerModal:{
+    fontSize: 16,
+    fontWeight:'600',
+    lineHeight:17,
+    paddingLeft:'3%',
+    color: COLORS.blackCode,
+    flexWrap:'wrap',
+  },
+  itemText:{
+    fontSize: 14,
+    lineHeight:17,
+    color: COLORS.blackCode,
+    paddingLeft: '9%',
+    flexWrap:'wrap'
+  },
+  itemSeparator: {
+    height: 1,
+    width: "90%",
+    marginLeft:'6%',
+    backgroundColor: COLORS.listSeparatorColor,
+  },
+  iconStyle: {
+    height: 35,
+    width: 25,
+    marginLeft: 15,
+  },
+  flatlistMain: {
+    height:'70%',
+    margin:'4%',
+    marginTop:'8%',
+    padding:'3%', 
+    flexDirection:'column', 
+    borderWidth:1, 
+    borderColor: COLORS.InputBorderColor, 
+    alignItems:'center',
+  },
+  flatlistHeading: {
+    flexDirection: 'row', 
+    alignItems:'center',
+    backgroundColor:COLORS.lightGrey, 
+    padding:'4%', 
+    // height:80,
+  },
+  tableHeadingTxt: {
+    fontSize:14, 
+    fontWeight:'500',
+   paddingLeft:'3%'
+  },
+  flatlisrRowView: {
+    flexDirection: 'row', 
+    alignItems:'center', 
+    // height: 70,
+    borderBottomWidth: 1, 
+    borderBottomColor: COLORS.listSeparatorColor,
+    padding:'4%', 
+  },
+  modalFlatList: {
+    height: 52,
+    backgroundColor: COLORS.greenDropDown,
+    borderWidth: 1,
+    borderColor: COLORS.InputBorderColor,
+    flexDirection:'row',
+    marginLeft:'4%',
+    marginRight:'4%',
+    padding:'4%',
+    borderRadius: 4,
+    alignItems:'center',
+    fontSize: 14,
+    fontWeight: '400',
+    color: COLORS.colorBlack,
+    paddingLeft: 30,
+  },
+  scoreView: { 
+    width:'33%' , 
+    height:60 , 
+    alignItems:'center', 
+    justifyContent:'center',
+  },
+});
+
+export default styles;
